@@ -1,0 +1,49 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing:border-box; 
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+button{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.hero{
+  height: 650px;
+}
+@media (max-width: 600px){
+  .hero{
+    height: 600px;
+  }
+}
+.hero img{
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.hero__text{
+  background: rgba(0,0,0, 0.4);
+}
+.hero__text h1{
+  font-size: 64px;
+  margin-bottom: 8px;
+}
+.hero__text p{
+  font-size: 24px;
+}
+.content-card{
+  margin-bottom: 40px;
+}
+.content-card img{
+  height: 300px;
+}
+.content-card button{
+  border-radius: 30px;
+  border-width: 4px;
+  font-weight: bolder;
+}
